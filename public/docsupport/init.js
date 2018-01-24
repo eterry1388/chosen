@@ -1,5 +1,6 @@
 var config = {
   '.chosen-select'           : {},
+  '.chosen-select-fuzzy'     : { search_fuzzy:true },
   '.chosen-select-deselect'  : { allow_single_deselect: true },
   '.chosen-select-no-single' : { disable_search_threshold: 10 },
   '.chosen-select-no-results': { no_results_text: 'Oops, nothing found!' },
